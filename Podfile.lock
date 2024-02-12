@@ -1,0 +1,16 @@
+PODS:
+  - SpreadsheetView (0.9.1)
+
+DEPENDENCIES:
+  - SpreadsheetView
+
+SPEC REPOS:
+  trunk:
+    - SpreadsheetView
+
+SPEC CHECKSUMS:
+  SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
+
+PODFILE CHECKSUM: 49ab4f2d35675d1d882a132f9f47af88f95f58fa
+
+COCOAPODS: 1.12.1
