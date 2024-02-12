@@ -10,7 +10,7 @@ The Matrix Counter project consists of the following components:
 - **View**: Represents the user interface components and their layout. It is responsible for displaying the data to the user and capturing user input.
 - **ViewModel**: Acts as an intermediary between the Model and View. It provides data to the View and handles user interactions. It also contains presentation logic and business logic that is not suitable for the Model.
 
-## Screesnaps
+## Screensnaps
 
 https://github.com/surajiosdev23/Matrix_Counter/assets/125321702/5bb3a705-9efd-41c9-a64a-7008bcc060fa
 
