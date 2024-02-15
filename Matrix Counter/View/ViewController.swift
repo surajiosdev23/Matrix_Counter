@@ -101,7 +101,7 @@ extension ViewController: SpreadsheetViewDataSource {
         if recordCount == "0"{
             backgroundColor = .lightGray
         }else{
-            let opacity = Double(recordCount) ?? 0.0 / 1000.0
+            let opacity = (Double(recordCount) ?? 0.0) / 1000.0
             backgroundColor = UIColor(red: 18.0/255.0, green: 92.0/255.0, blue: 33.0/255.0, alpha: CGFloat(opacity))
         }
         cell.label.text = ""
