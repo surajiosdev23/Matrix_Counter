@@ -12,15 +12,9 @@ The Matrix Counter project consists of the following components:
 
 ## Screensnaps
 
-https://github.com/surajiosdev23/Matrix_Counter/assets/125321702/5bb3a705-9efd-41c9-a64a-7008bcc060fa
+![Simulator Screenshot - iPad Air (5th generation) - 2024-02-15 at 15 51 21](https://github.com/surajiosdev23/Matrix_Counter/assets/125321702/7733ec57-b6c7-440e-8ef9-7bcbb08fd800)
 
-
-![Simulator Screenshot - iPad Air (5th generation) - 2024-02-12 at 23 22 54](https://github.com/surajiosdev23/Matrix_Counter/assets/125321702/51bf48a1-04fe-4560-8120-7e94516e72f9)
-
-
-![Simulator Screenshot - iPad Air (5th generation) - 2024-02-12 at 23 33 44](https://github.com/surajiosdev23/Matrix_Counter/assets/125321702/459cce86-85c3-45ad-979e-50e07a190122)
-
-
+![Simulator Screenshot - iPad Air (5th generation) - 2024-02-15 at 15 51 25](https://github.com/surajiosdev23/Matrix_Counter/assets/125321702/e3453f7c-b30e-4fc1-b677-791e749c841a)
 
 
 ## Features
