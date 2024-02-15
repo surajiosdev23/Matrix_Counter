@@ -8,7 +8,7 @@
 import Foundation
 // MARK: - DayEndRecordModelElement
 struct DayEndRecordModelElement: Codable {
-    let hours: [Hour]?
+    var hours: [Hour]?
     let day: String?
 }
 

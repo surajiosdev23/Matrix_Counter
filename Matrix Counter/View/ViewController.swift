@@ -64,7 +64,7 @@ extension ViewController: SpreadsheetViewDataSource {
     }
 
     func numberOfRows(in spreadsheetView: SpreadsheetView) -> Int {
-        return 16
+        return 17
     }
 
     func spreadsheetView(_ spreadsheetView: SpreadsheetView, widthForColumn column: Int) -> CGFloat {
@@ -86,20 +86,21 @@ extension ViewController: SpreadsheetViewDataSource {
     // Helper Methods
     private func configureDataCell(_ cell: HeaderCell, forRowAt row: Int, andColumnAt column: Int) {
         var recordCount = "0"
-        var backgroundColor: UIColor
+        var backgroundColor: UIColor = .lightGray
         
         let count = viewModel.dayRecordModel?[column].hours?.count ?? 0
         if count < 24 {
             if row < 24 - count {
                 recordCount = "0"
-                backgroundColor = .lightGray
             } else {
                 recordCount = "\(viewModel.dayRecordModel?[column].hours?[23 - row].recordCount ?? 0)"
-                let opacity = Double(recordCount) ?? 0.0 / 1000.0
-                backgroundColor = UIColor(red: 18.0/255.0, green: 92.0/255.0, blue: 33.0/255.0, alpha: CGFloat(opacity))
             }
         } else {
-            recordCount = "\(viewModel.dayRecordModel?[column].hours?[(viewModel.dayRecordModel?[column].hours?.count ?? 0) - row - 1].recordCount ?? 0)"
+            recordCount = "\(viewModel.dayRecordModel?[column].hours?[row].recordCount ?? 0)"
+        }
+        if recordCount == "0"{
+            backgroundColor = .lightGray
+        }else{
             let opacity = Double(recordCount) ?? 0.0 / 1000.0
             backgroundColor = UIColor(red: 18.0/255.0, green: 92.0/255.0, blue: 33.0/255.0, alpha: CGFloat(opacity))
         }
